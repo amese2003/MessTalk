@@ -7,15 +7,19 @@
         <title>Home - My First browser</title>
         <!-- <link href="styles.css" rel="stylesheet"/> -->
         <style>
+            * {
+                border: 2px dashed black;
+            }
             html {
                 background-color: tomato;
             }
             body {
-                margin: 0;
+                margin: 20px;
+                padding: 20px;
                 background-color: thistle;
             }
             div {
-                padding: 10px;
+                padding: 20px;
             }
             #first{
                 width: 150px;
@@ -32,10 +36,8 @@
                 height: 50px;
                 background-color: yellow;
             }
-            #fourth{
-                width: 25px;
-                height: 25px;
-                background-color: green;
+            span {
+                border: 2px solid black;
             }
         </style>
         <meta charset="utf-8"/>
@@ -45,9 +47,7 @@
         <div id="first">
             <div id="second">
                 <div id="third">
-                    <div id="fourth"">
-
-                    </div>
+                    <span>hello</span>
                 </div>
             </div>
         </div>
