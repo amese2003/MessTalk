@@ -10,24 +10,22 @@
             body {
                 height: 100vh;
                 margin: 20px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                flex-wrap: nowrap;
-                
             }
             div {
-                display: flex;
                 width: 300px;
                 height: 300px;
-                justify-content: center;
-                align-items: center;
-                background-color: teal;
                 color:white;
+                background-color: teal;
                 font-size: 28px;
             }
-            .middle{
-                background-color: red;
+            #ori{
+                position: fixed;
+                background-color: wheat;
+                opacity: 1;
+            }
+            #diff{
+                background-color: blue;
+                width: 300px;
             }
 
         </style>
@@ -35,8 +33,7 @@
         <meta name="description" content="내사이트!"/>
     </head>
     <body>
-        <div>1</div>
-        <div class="middle">2</div>
-        <div>3</div>
+        <div id="ori">1</div>
+        <div id="diff">3</div>
     </body>
 </html>
