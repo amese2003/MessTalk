@@ -15,7 +15,8 @@
                 width: 300px;
                 height: 300px;
                 color:white;
-                background-color: teal;
+                position: relative;
+                background-color: wheat;
                 font-size: 28px;
             }
             #ori{
@@ -27,13 +28,22 @@
                 background-color: blue;
                 width: 300px;
             }
-
+            .green{
+                background-color: teal;
+                height: 100px;
+                position:absolute;
+                top: 0px;
+                right: 0px;
+                width: 100px;
+            }
         </style>
         <meta charset="utf-8"/>
         <meta name="description" content="내사이트!"/>
     </head>
     <body>
-        <div id="ori">1</div>
-        <div id="diff">3</div>
+        <div>
+            <div class="green"></div>
+        </div>
+        
     </body>
 </html>
