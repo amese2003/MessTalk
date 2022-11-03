@@ -19,26 +19,32 @@
                 background-color: wheat;
                 font-size: 28px;
             }
-            span {
+            /* span {
                 background-color: tomato;
             }
             span:nth-child(2n + 1) {
                 background-color: blue;
+            } */
+
+            /* body > span {
+                background-color: tomato;
+                padding: 5px;
+                border-radius: 10px;
+            } */
+
+
+            p + span {
+                background-color: tomato;
+                padding: 5px;
+                border-radius: 10px;
             }
+
         </style>
         <meta charset="utf-8"/>
         <meta name="description" content="내사이트!"/>
     </head>
     <body>
-        <div></div>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
-        <span>hello</span>
+        <p>원신 3.2 패치가 있었따 <span>6돌을 해야하나</span></p>
+        <span>테스트</span>
     </body>
 </html>
