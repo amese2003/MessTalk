@@ -39,12 +39,21 @@
                 border-radius: 10px;
             }
 
+            input:required {
+                border-color: tomato;
+            }
+
+            input[placeholder~="name"] {
+                background-color: pink;
+            }
+
         </style>
         <meta charset="utf-8"/>
         <meta name="description" content="내사이트!"/>
     </head>
     <body>
-        <p>원신 3.2 패치가 있었따 <span>6돌을 해야하나</span></p>
-        <span>테스트</span>
+        <input type="text" placeholder="First name">
+        <input type="text" placeholder="Last name">
+        <input type="password" required placeholder="password"> 
     </body>
 </html>
