@@ -7,6 +7,10 @@
         <title>Home - My First browser</title>
         <!-- <link href="styles.css" rel="stylesheet"/> -->
         <style>
+            :root {
+                --main-color: #489ee3;
+                --default-border: 1px solid var(var(--main-color))
+            }
             form {
                 border: 1px  solid salmon;
                 display: flex;
@@ -23,7 +27,8 @@
             }
 
             p::selection {
-                background-color: blue;
+                background-color: var(--main-color);
+                border: var(--default-border);
             }
 
         </style>
