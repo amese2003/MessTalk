@@ -7,22 +7,14 @@
         <title>Home - My First browser</title>
         <!-- <link href="styles.css" rel="stylesheet"/> -->
         <style>
-            a {
-                color: wheat;
-                background-color: tomato;
-                text-decoration: none;
-                padding: 3px 5px;
-                border-radius: 5px;
-                font-size: 55px;
-                transition: color 1s cubic-bezier(0.6, 0, 0.735, 0.045),
-                    border-radius 5s ease-in-out,
-                    background-color 10s ease-in-out
+            img {
+                border: 10px solid blue;
+                border-radius: 50%;
+                transition: transform 2s ease-in-out;
             }
 
-            a:hover {
-                border-radius: 30px;
-                color: tomato;
-                background-color: wheat;
+            img:hover {
+                transform: matrix(1,2,3,4,5,6)
             }
 
         </style>
@@ -30,8 +22,6 @@
         <meta name="description" content="내사이트!"/>
     </head>
     <body>
-        <form>
-            <a href="#">Go Home</a>
-        </form>
+        <img src="./images.jpg"></img>
     </body>
 </html>
