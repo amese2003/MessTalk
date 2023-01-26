@@ -1,7 +1,7 @@
 .find-icons {
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+    
 }
 
 .find-icons__icon {
@@ -16,4 +16,19 @@
 
 .find-icons__icon span {
     margin-top: 18px;
+}
+
+.recommanded-friends {
+    margin: 25px 0;
+    padding: 25px 0;
+    border-top: var(--border-line);
+    border-bottom: var(--border-line);
+}
+
+.recommanded-friends span {
+    margin: 100px 0;
+    display: block;
+    text-align: center;
+    font-size: 18px;
+    color: var(--color-gray)
 }
