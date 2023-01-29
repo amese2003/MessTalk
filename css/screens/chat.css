@@ -14,10 +14,26 @@
 }
 
 
+#chat-screen .status-bar {
+    z-index: 2;
+  }
+  
 #chat-screen .alt-header {
+    top: 10px;
     z-index: 1;
 }
+  
+.main-chat {
+    display: flex;
+    margin-top: 150px;
+    flex-direction: column;
+    align-items: center;
+}
 
-#chat-scrren .main-chat {
-    z-index: 0;
+.chat__timestamp {
+    display: flex;
+    background-color: #92a4b2;
+    padding: 15px;
+    border-radius: 20px;
+    color: white;
 }
