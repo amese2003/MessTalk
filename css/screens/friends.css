@@ -29,6 +29,17 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+@keyframes hideSplashAnim{
+    from {
+        opacity: 1;
+    }
+
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
 #splash-screen {
     display: flex;
     position: absolute;
@@ -40,4 +51,6 @@
     align-items: center;
     top: 0;
     font-size: 132px;
+    animation: hideSplashAnim 0.4s ease-in-out forwards;
+    animation-delay: 2s;
 }
