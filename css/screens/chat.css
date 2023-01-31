@@ -62,10 +62,6 @@
     margin-bottom: 5px;
 }
 
-.message-row__content {
-    display: flex;
-}
-
 .message__bubble {
     background-color: white;
     padding: 13px;
@@ -74,4 +70,26 @@
     font-size: 18px;
     border-top-left-radius: 0px;
 
+}
+
+.message__time,
+.message__author {
+  opacity: 0.8;
+  font-size: 14px;
+}
+
+.message-row--own {
+    justify-content: flex-end;
+}
+
+.message-row--own .message__info {
+    flex-direction: row-reverse;
+}
+
+.message-row--own .message__bubble {
+    background-color: var(--yellow);
+    border-top-right-radius: 0px;
+    border-top-left-radius: 15px;
+    margin-right: 0px;
+    margin-left: 10px;
 }
