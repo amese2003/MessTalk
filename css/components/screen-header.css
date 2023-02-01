@@ -20,3 +20,18 @@
     right: 15px;
     top:  25px;
 }
+
+
+@keyframes CogAnim {
+    from {
+        transform: none;
+    }
+
+    to {
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-cog:hover {
+    animation: CogAnim 1s linear infinite;
+}
